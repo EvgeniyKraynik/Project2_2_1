@@ -38,7 +38,7 @@ public class MainApp {
             System.out.println();
         }
 
-        userService.getUserFromModelAndSeriesUserCar("Lada", 5).forEach(System.out::println);
+        userService.getUserByCarModelAndSeries("Lada", 5).forEach(System.out::println);
 
         context.close();
     }
